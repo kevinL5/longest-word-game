@@ -1,0 +1,11 @@
+<h3>******** Now your result *******</h3>
+
+<h3>Your word: <%= @attempt %> </h3>
+<h3>Time Taken to answer: <%= @result[:time] %> seconds<h3>
+<h3>Translation: <%= @translation %></h3>
+<h3>Your score: <%= @result[:score] %></h3>
+<h3>Message: <%= @result[:message] %></h3>
+
+<h3>****************************************************</h3>
+
+<%= link_to 'Back', game_path %>

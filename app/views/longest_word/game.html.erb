@@ -1,0 +1,10 @@
+<h2>******** Welcome to the longest word-game !********</h2>
+<h3>Here is your grid :</h3>
+<h3><%= @letters.join(' ') %></h3>
+<h3>*****************************************************</h3>
+
+<form action="/score">
+  <h2><label for="question">What's your best shot ?</label></h2>
+  <p><input type="text" id="question" name="query" placeholder="You can do better !"></p>
+  <p><input type="submit" value="Go on!"></p>
+</form>
